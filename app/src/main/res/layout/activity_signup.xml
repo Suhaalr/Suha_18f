@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup"
+    android:background="@drawable/sr">
+
+
+    <TextView
+        android:id="@+id/texSU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create your account"
+        android:textColor="#040202"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.228" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+       android:background="@drawable/mmmm"
+        android:hint="Enter your Name..."
+        android:inputType="text"
+        android:textColor="#040202"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.475"
+        tools:layout_editor_absoluteX="32dp" />
+
+    <EditText
+        android:id="@+id/F18s013"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Your Email...."
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:inputType="textEmailAddress"
+        android:textColor="#040202"
+        android:textSize="20dp"
+        android:background="@drawable/mmmm"
+        android:drawableLeft="@drawable/baseline_email_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.584"
+        tools:layout_editor_absoluteX="40dp" />
+
+    <EditText
+        android:id="@+id/Text18f"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="208dp"
+        android:hint="Enter your password"
+        android:inputType="numberPassword"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:background="@drawable/mmmm"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/F18s013"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Suhabutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Sgin up"
+        android:textSize="16dp"
+        android:background="@drawable/button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.838" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

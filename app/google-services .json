@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1038308146370",
+    "project_id": "contractionproject",
+    "storage_bucket": "contractionproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038308146370:android:06ceaf3482d799866c8f5b",
+        "android_client_info": {
+          "package_name": "com.example.project_equipment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038308146370-iadhuhdf374rqs92th272lr507fmlmng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkmv3HXLGKF5Hq_fYhvHeEmT7e9BW97Ww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038308146370-iadhuhdf374rqs92th272lr507fmlmng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
